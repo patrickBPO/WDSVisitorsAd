@@ -13,6 +13,9 @@
                     <Templates>
                         <DetailRow>
                             <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="VisitorsDetailDS" EnableTheming="True" OnBeforePerformDataSelect="ASPxGridView2_BeforePerformDataSelect" Theme="Aqua" KeyFieldName="visitor_id" OnParseValue="ASPxGridView2_ParseValue">
+                                <SettingsEditing Mode="Batch">
+                                    <BatchEditSettings EditMode="Row" />
+                                </SettingsEditing>
                                 <Columns>
                                     <dx:GridViewCommandColumn ShowDeleteButton="True" ShowEditButton="True" ShowNewButtonInHeader="True" VisibleIndex="0">
                                     </dx:GridViewCommandColumn>
