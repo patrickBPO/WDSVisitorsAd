@@ -68,6 +68,8 @@
                             </dx:ASPxGridView>
                         </DetailRow>
                     </Templates>
+                    <SettingsPager PageSize="20">
+                    </SettingsPager>
                     <Settings ShowFooter="True" ShowGroupedColumns="True" ShowGroupFooter="VisibleAlways" ShowGroupPanel="True" />
                     <SettingsBehavior AllowFixedGroups="True" />
                     <SettingsDataSecurity AllowDelete="False" AllowInsert="False" />
